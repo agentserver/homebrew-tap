@@ -3,7 +3,7 @@ cask "agentserver" do
   name "agentserver"
   desc "Connect local opencode to agentserver via WebSocket tunnel"
   homepage "https://github.com/agentserver/agentserver"
-  version "0.16.0"
+  version "0.17.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "agentserver" do
   on_macos do
     on_intel do
       url "https://github.com/agentserver/agentserver/releases/download/v#{version}/agentserver-darwin-amd64.tar.gz"
-      sha256 "56b397e71c77722186fd29eb787b43e3afe3594660d69513c7c336e45c3627d8"
+      sha256 "b80689b3f8ff46b49411d7b473f666c657dad50bedeaea57ef92aabd288babee"
     end
     on_arm do
       url "https://github.com/agentserver/agentserver/releases/download/v#{version}/agentserver-darwin-arm64.tar.gz"
-      sha256 "5d361e489d1497d4adf026850b081c73d9bf4fde94df494f60514396d555f7e8"
+      sha256 "635dab6bb9be541646d8389b062cc541173824095f6365dae49948537b0ee633"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/agentserver/agentserver/releases/download/v#{version}/agentserver-linux-amd64.tar.gz"
-      sha256 "098ccb84ee287de973f76ca9f7955feb9aa1b16dc7678604302dc7fe92fc8d91"
+      sha256 "03d3f72d75fdc0dab71ff825f93e90e6ebe122f349a0c3393f5cd039a7a86496"
     end
     on_arm do
       url "https://github.com/agentserver/agentserver/releases/download/v#{version}/agentserver-linux-arm64.tar.gz"
-      sha256 "98457e3111a885f40ca6eb9545c39133b217d2b0acd3fc582450b789bdb9b29a"
+      sha256 "525c05ac5b2a198bac5342483d656eb93c16acf1a09bad9953c02cc94473426e"
     end
   end
 

@@ -2,8 +2,8 @@
 class Agentserver < Formula
   desc "Connect local opencode to agentserver via WebSocket tunnel"
   homepage "https://github.com/agentserver/agentserver"
-  url "https://github.com/agentserver/agentserver/archive/refs/tags/v0.18.4.tar.gz"
-  sha256 "153137dd8d040181815f067f71369cd4f92746a17ad3497e6ee3dcbb265bf6e4"
+  url "https://github.com/agentserver/agentserver/archive/refs/tags/v0.19.0.tar.gz"
+  sha256 "46cab89f9741561206c7af9adf07785d6988e39cda6dad5cd61181796dc73e58"
   license "MIT"
 
   depends_on "go" => :build

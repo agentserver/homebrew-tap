@@ -5,22 +5,22 @@ cask "agentserver" do
   on_macos do
     on_intel do
       url "https://github.com/agentserver/agentserver/releases/download/v#{version}/agentserver-darwin-amd64.tar.gz"
-      sha256 "659d13bcb6782e0860c8c899caa0b28c536468dcf9709a827ffa39fbf90ce2ff"
+      sha256 "7fafd7ff1db22b7e8ceb137c0c283e33a88cb2071902162bffcf8f34b39deb4b"
     end
     on_arm do
       url "https://github.com/agentserver/agentserver/releases/download/v#{version}/agentserver-darwin-arm64.tar.gz"
-      sha256 "76c56b81e84f62a76c302e655e8fc7d5def8c14892be2d146cb513e5ec20f717"
+      sha256 "376089f3048b61fe54199a6492b8555044f3ca7018bda9db9a076270b2ada586"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/agentserver/agentserver/releases/download/v#{version}/agentserver-linux-amd64.tar.gz"
-      sha256 "8cdeced38838f3a90ab4415b0c46fd1adc6a3fabcbe8f737ce163202caa8fa9d"
+      sha256 "b8145dac49d065acb0e3d15b6a5ed190d57c315e891a047e4bf951f4058848a0"
     end
     on_arm do
       url "https://github.com/agentserver/agentserver/releases/download/v#{version}/agentserver-linux-arm64.tar.gz"
-      sha256 "4f589a73ed3edbc4cd6d34eaa124d753524d5b510c2e748e276e5d628a2540be"
+      sha256 "dbfd8ca9bfbd55c8e815cf5ce26a71d7a0002339880d9d20cc7ae65ea406add5"
     end
   end
 
